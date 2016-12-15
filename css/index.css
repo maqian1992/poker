@@ -1,0 +1,72 @@
+*{
+	padding:0;
+	margin:0;
+	border:0;
+	list-style:none;
+	text-decoration: none;
+}
+.bigbox{
+	position:fixed;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+	background-image:url(../image/bigbg.jpg); 
+	background-size:100%;
+}
+.buttons{
+	width:200px;
+	float:left;
+	margin-left:100px;
+}
+.start,.restart,.end,.score,.overplus{
+	width:200px;
+	height:50px;
+	color:#fff;
+	background:#000;
+	font-size:25px;
+	line-height:50px;
+	text-align:center;
+	margin-top:50px;
+	border-radius:10px;
+	cursor:pointer;
+}
+.screen{
+	width:800px;
+	margin:0 auto;
+	margin-left:100px;
+	position:relative;
+	margin-top:10px;
+	float:left;
+}
+.screen .pai{
+	width:100px;
+	height:140px;
+	border:1px solid #ccc;
+	border-radius:5px;
+	background-size:100%;
+	position:absolute;
+	left:0;
+	top:0;
+	opacity:0;
+}
+.screen .btnleft,.screen .btnright{
+	width:40px;
+	height:40px;
+	background:#fff;
+	border-radius:50%;
+	position:absolute;
+	top:470px;
+	left:300px;
+	cursor:pointer;
+}
+.screen .btnright{
+	left:400px;
+}
+.screen .btnleft img,.screen .btnright img{
+	width:50px;
+	height:50px;
+	margin-left:-5px;
+	margin-top:-5px;
+}

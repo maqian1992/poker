@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>纸牌游戏</title>
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/index2.js"></script>
+</head>
+<body>
+<div class="bigbox">
+	<div class="buttons">
+		<button class="start">开始游戏</button>
+		<button class="restart">重新开始</button>
+		<button class="end">结束游戏</button>
+		<button class="score">得分：&nbsp<span>0</span>&nbsp</button>
+		<button class="overplus">剩余&nbsp<span>52</span>&nbsp张</button>
+	</div>
+	<div class="screen">
+		<div class="btnleft"><img src="image/按钮右1.png" alt=""></div>
+		<div class="btnright"><img src="image/按钮左1.png" alt=""></div>
+	</div>
+</div>
+</body>
+</html>
+
+<!-- 函数在定义的时候会记录自己可见范围内的所有变量
+只记录地址不记录值
+记录的顺序有近到远 
+
+所有的记录组成一个链条
+叫做函数的作用域链
+
+函数在调用的时候会查看作用域链
+辅助自己正确的解释执行
+
+ JS中函数的这个特性导出闭包这个概念
+闭包通常用来构造一个更强大的函数
+或者用来获取一些中间状态的值 -->
